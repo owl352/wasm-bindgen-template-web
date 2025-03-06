@@ -1,0 +1,19 @@
+{
+  "name": "wasm-bindgen-template-web",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack serve --config webpack.config.js --open"
+  },
+  "keywords": [],
+  "author": "owl352",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
